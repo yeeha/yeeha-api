@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "yeeha-api"
   spec.version       = Yeeha::Api::VERSION
   spec.authors       = ["Jason YiZhang Chen"]
-  spec.email         = ["a880074@gmail.com"]
+  spec.email         = ["jacyzon@ntut.edu.tw"]
   spec.summary       = "The public Yeeha API"
 
   spec.homepage      = "https://github.com/yeeha/yeeha-core"
@@ -19,6 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_dependency "sinatra", "~> 1.4.5"
+  spec.add_dependency "unicorn"
 
   spec.add_development_dependency "bundler", "~> 1.6"
   spec.add_development_dependency "rake", "~> 10.0"
